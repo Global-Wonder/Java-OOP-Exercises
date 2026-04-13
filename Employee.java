@@ -52,7 +52,7 @@ class PartTimeEmployee extends Employee{
 class EmployeeDemo{
     public static void main(String[] args){
         FullTimeEmployee fullTime = new FullTimeEmployee("Emmanuel",4000, 10000);
-        PartTimeEmployee partTime = new PartTimeEmployee("Adepa",15, 20);
+        PartTimeEmployee partTime = new PartTimeEmployee("Sharon",15, 20);
 
         System.out.println("FULL-TIME EMPLOYEE:");
         System.out.println("Name: " + fullTime.getName());

@@ -44,12 +44,10 @@ class InheritanceDemo {
         Car car = new Car(" Toyota");
         Motorcycle bike = new Motorcycle("Harley");
 
-        System.out.println("===Method Overriding Demo");
+        System.out.println("===Method Overriding Demo===");
         car.startEngine();
         System.out.println();
-        bike.startEngine();
-
-        
+        bike.startEngine(); 
 
     }
 }
